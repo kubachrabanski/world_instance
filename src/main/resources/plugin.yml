@@ -1,0 +1,19 @@
+main: org.kubachrabanski.Plugin
+name: WorldInstance
+version: 0.1
+api-version: 1.14
+description: Plugin for world instance at dirt.cf
+author: kubachrabanski
+commands:
+  locate_player:
+    description: Shows player location
+    aliases: [lp, lplayer]
+    usage:
+    permission: worldinstance.player.use
+permissions:
+  worldinstance.player.use:
+    description: Allows the usage of player commands
+    default: true
+  worldinstance.op.use:
+    description: Allows the usage of op commands
+    default: op

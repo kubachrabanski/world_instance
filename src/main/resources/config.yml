@@ -1,0 +1,13 @@
+instance:
+  type: PRIVATE # PUBLIC | PRIVATE
+  identifier: WORLD
+
+settings:
+  backups:
+    interval: 60
+  chunks:
+    preloaded:
+      - world -700 -1300 200 # world x z radius
+  projectiles:
+    knockback: 1.0
+    damage: 0.0
